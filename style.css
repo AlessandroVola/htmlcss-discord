@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+/* body */
+.container {
+    flex-grow: 1;
+    align-items: stretch;
+
+}
+
+.column {
+    flex-direction: column;
+}
+
+
+/* header */
+
+
+.header {
+    background-color: #3161e0;
+    height: 500px;
+    color: #ffff;
+    background-image: url(/Users/cristianvola/Desktop/Boolean/Esercizi_Boolean/12luglio2022/htmlcss-discord/img_discord/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+/* nav */
+.nav {
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 20px;
+}
+
+.menu {
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+/* presentazione */
+.presentation {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 800px;
+    margin-top: 60px;
+}
+
+h1
+/* sezioni */
+
+.section {
+    background-color: #ffffff;
+
+
+
+}
+
+.part {
+    max-width: 1000px;
+    margin: 0 auto;
+
+
+}
+
+.part>div {
+    justify-content: space-between;
+    flex-basis: 50%;
+
+}
+
+.big-img {}
+
+.right {
+    order: 1;
+
+}
+
+.img-left {
+    background-color: #ffffff;
+
+}
+
+.grey {
+    background-color: #f6f6f6;
+}
+
+.description {
+    justify-self: flex-end;
+
+    margin: 40px 0;
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.section2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.big-item {
+    flex-basis: 400px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+/* footer */
+.container-footer {
+    background-color: #23272a;
+    padding-top: 30px;
+
+}
+
+.footer {
+    justify-content: space-between;
+    color: #8fa1e1;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.baseline {
+    text-decoration: none;
+
+}
+
+
+
+hr {
+    border: 1px solid #8fa1e1;
+}
+
+.register {
+    justify-content: space-between;
+    background-color: #23272a;
+    color: white;
+    height: 200px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
