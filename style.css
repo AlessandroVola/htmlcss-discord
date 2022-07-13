@@ -50,10 +50,19 @@ body {
     margin-top: 20px;
 }
 
+
+
+
+.grow {
+    flex-grow: 1;
+}
+
+
 .menu {
     flex-direction: row;
     justify-content: space-between;
-
+    list-style-type: none;
+    padding: 5px 150px;
 }
 
 .button {
@@ -72,8 +81,13 @@ body {
     margin-top: 60px;
 }
 
+h1 {
+    padding-bottom: 20px;
+
+}
+
 .buttons {
-    padding-top: 30px;
+    margin-top: 30px;
 
 }
 
@@ -150,15 +164,13 @@ body {
 h3 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 .section2 {
     text-align: center;
 }
 
-h3 {
-    padding-top: 20px;
-}
 
 
 .big-item {
